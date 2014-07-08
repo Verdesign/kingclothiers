@@ -1,0 +1,352 @@
+@font-face {
+    font-family: 'Adobe Caslon Pro';
+    src: url('http://workspace.verdesign.com.au/~kingclothiers/fonts/caslon/adobe_caslon_pro.eot');
+    src: url('http://workspace.verdesign.com.au/~kingclothiers/fonts/caslon/adobe_caslon_pro.eot?#iefix') format('embedded-opentype'),
+         url('http://workspace.verdesign.com.au/~kingclothiers/fonts/caslon/adobe_caslon_pro.woff') format('woff'),
+         url('http://workspace.verdesign.com.au/~kingclothiers/fonts/caslon/adobe_caslon_pro.ttf') format('truetype'),
+         url('http://workspace.verdesign.com.au/~kingclothiers/fonts/caslon/adobe_caslon_pro.svg#adobe_caslon_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Gill Sans';
+    src: url('http://workspace.verdesign.com.au/~kingclothiers/fonts/gillsans/gillsans-light-webfont.eot');
+    src: url('http://workspace.verdesign.com.au/~kingclothiers/fonts/gillsans/gillsans-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://workspace.verdesign.com.au/~kingclothiers/fonts/gillsans/gillsans-light-webfont.woff') format('woff'),
+         url('http://workspace.verdesign.com.au/~kingclothiers/fonts/gillsans/gillsans-light-webfont.ttf') format('truetype'),
+         url('http://workspace.verdesign.com.au/~kingclothiers/fonts/gillsans/gillsans-light-webfont.svg#adobe_caslon_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.l-col-12 {
+    width: 100%;
+    clear: both;
+    max-width: 1600px;
+}
+.l-col-1 {
+    width: 8.33%;
+    float: left;
+}
+.l-col-2 {
+    width: 16.66%;
+    float: left;
+}
+.l-col-3 {
+    width: 25%;
+    float: left;
+}
+.l-col-4 {
+    width: 33.33%;
+    float: left;
+}
+.l-col-5 {
+    width: 41.66%;
+    float: left;
+}
+.l-col-6 {
+    width: 50%;
+    float: left;
+}
+.l-col-7 {
+    width: 58.33%;
+    float: left;
+}
+.l-col-8 {
+    width: 66.66%;
+    float: left;
+}
+.l-col-9 {
+    width: 75%;
+    float: left;
+}
+.l-col-10 {
+    width: 83.33%;
+    float: left;
+}
+.l-col-11 {
+    width: 91.66%;
+    float: left;
+}
+.l-margin-bottom {
+    margin-bottom: 60px;
+}
+.l-margin-top {
+    margin-top: 60px;
+}
+.l-padding {
+    padding: 0 20px;
+}
+.l-content {
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+.csr-body {
+    background: #f7f6f2;
+    font-family: 'Gill Sans';
+    padding-top: 20px;
+}
+.csr-body .wrapper {
+    background: #f7f6f2;
+}
+.csr-logo {
+    display: block;
+    float: right;
+    width: 100%;
+    text-align: right;
+}
+.csr-logo a {
+    float: right;
+}
+.csr-main-tab li {
+    text-align: right;
+    text-transform: uppercase;
+    padding: 20px 0 5px;
+    color: #999999;
+    border-bottom: 1px solid #cccccc;
+    font-size: 12px;
+}
+.csr-inner-tab {
+    border-bottom: 1px solid #234de8;
+    display: block;
+    width: 100%;
+    height: 34px;
+}
+.csr-inner-tab li {
+    width: 25%;
+    float: left;
+    display: inline-block;
+    font-size: 22px;
+    font-style: oblique;
+    text-align: center;
+    font-family: 'Adobe Caslon Pro';
+    color: #999999;
+}
+.csr-inner-tab li.active {
+    color: #234de8;
+    background-position: bottom: center;
+}
+.csr-inner-tab li a {
+    color: #999999;
+}
+.csr-inner-tab li a:hover,
+.csr-inner-tab li.active a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #234de8;
+}
+.csr-sub-inner-tab {
+    width: 100%;
+    border-bottom: 1px solid #234de8;
+    height: 54px;
+    display: block;
+}
+.csr-sub-inner-tab li {
+    width: 33%;
+    float: left;
+    display: inline-block;
+    text-align: center;
+    padding: 15px 0px;
+}
+.csr-sub-inner-tab li a {
+    text-transform: uppercase;
+    font-size: 12px;
+    transition: all, 0.2s;
+    padding: 2px 8px;
+    display: inline-block;
+    border: 1px solid #f7f6f2;
+    color: #234de8;
+}
+.csr-sub-inner-tab li a span {
+    font-size: 10px;
+}
+.csr-sub-inner-tab li.data-csr-price-filter a:hover,
+.csr-sub-inner-tab li.data-csr-price-filter a.active {
+    color: white;
+    background: #234de8;
+    text-decoration: none;
+    cursor: pointer;
+}
+.csr-sub-inner-tab li a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+.csr-sub-inner-tab li.data-csr-price-filter a {
+    border: 1px solid #234de8;
+    display: inline-block;
+}
+.csr-sub-inner-tab li.data-csr-price-filter a.first {
+    border-right: 0px;
+}
+.csr-sub-inner-tab li.data-csr-price-filter a.last {
+    border-left: 0px;
+}
+.csr-main-tab li.active {
+    text-align: right;
+    text-transform: uppercase;
+    color: #234de8;
+    border-bottom: 1px solid #234de8;
+}
+.csr-canvas-image img, .csr-canvas-image {
+    height: auto;
+    max-width: 100%;
+    margin: 0 auto;
+
+}
+.csr-main-picker {
+    display: block;
+    width: 100%;
+    clear: both;
+    margin-top: 20px;
+    padding-right: 0px;
+}
+.csr-main-picker li {
+    display: inline-block;
+    width: 19%;
+    margin: 0 1% 1% 0;
+    float: left;
+    padding: 5px;
+}
+.csr-main-picker li a {
+    display: block;
+    height: 0px;
+    padding-bottom: 100%;
+    background: center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+}
+.csr-cart {
+    text-align: right;
+    text-transform: uppercase;
+    color: #4c4c4c;
+}
+.csr-cart .csr-current-tab {
+    color: #234de8;
+    font-size: 12px;
+}
+.csr-cart .csr-action {
+    display: block;
+    max-width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    background: #234de8;
+    color: white;
+    border: 0px;
+    outline: none;
+    border-radius: 0px;
+    padding: 8px 12px;
+    margin-top: 15px;
+    clear: both;
+    float: right;
+    font-size: 12px;
+    min-width: 102px;
+}
+.csr-cart .price {
+    font-size: 12px;
+}
+.csr-cart .csr-full-price {
+    font-weight: bold;
+    font-size: 34px;
+    font-family: 'Adobe Caslon Pro';
+
+}
+.csr .header-links a {
+    color: #234de8;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+    margin-left: 15px;
+    line-height: 34px;
+}
+.csr .header-links a.first {
+    margin-left: 0px;
+}
+.csr .header-links a:hover {
+    cursor: pointer;
+}
+.sub-filter-container {
+    position: relative;
+    overflow: visible;
+}
+.sub-filter {
+    position: absolute;
+    top: 95%;
+    width: 172px;
+    left: 50%;
+    margin-left: -86px;
+    padding: 15px 11px;
+    background: white;
+    display: none;
+    z-index: 9999;
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
+}
+:hover .sub-filter {
+    display: none;
+}
+:hover .sub-filter.active {
+    display: block;
+}
+.sub-filter.active {
+    display: block;
+}
+.sub-filter li {
+    margin: 0px 4px 0px 4px;
+    float: left;
+    width: 17px;
+    height: 17px;
+    padding: 2px;
+    box-shadow: 0px 1px 4px rgba(0,0,0,0.4);
+    transition: all, 0.2s;
+}
+.sub-filter li:hover,
+.sub-filter li.active {
+    box-shadow: 0px 1px 4px rgba(0,0,0,0.8);
+}
+.sub-filter li a {
+    width: 13px;
+    padding: 0%;
+    display: block;
+    text-indent: -9999px;
+    height: 13px;
+    border: 0px;
+}
+.sub-filter-pattern {
+    padding: 8px;
+}
+.sub-filter-pattern li {
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+    margin-right: 5px;
+    box-shadow: 0px 0px 0px;
+    transition: all, 0.2s;
+}
+.sub-filter-pattern li:hover,
+.sub-filter-pattern li.active {
+    box-shadow: 0px 1px 4px rgba(0,0,0,0.4);
+}
+.sub-filter-pattern li a {
+    width: 30px;
+    height: 30px;
+    background: url(images/patterns.png) no-repeat left center;
+}
+.sub-filter-pattern li a.pattern-2 {
+    background-position: -51px center;
+}
+.sub-filter-pattern li a.pattern-3 {
+    background-position: -99px center;
+}
+.sub-filter-pattern li a.pattern-4 {
+    background-position: -146px center;
+}
